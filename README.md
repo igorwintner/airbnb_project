@@ -199,6 +199,7 @@ ORDER BY distance_group
 |2-2.5 km from metro|261.34       |
 |2.5-3 km from metro|208.80       |
 |Beyond 3 km from the metro|207.47       |
+
 *Table displaying the the average price of accommodation in relation to the distance from the metro*
 
 What is interesting about these results is that the distance from the metro does not affect the average price of accommodation as much as the distance from the centre. We can see a relatively large price range here, with the very **highest average price** for accommodation within **1.5-2 km**. On the other hand, the price at distances of **0.5-1 km** from the metro is relatively low at **$235.5**. For distances of **more than 3 km** from the metro, the prices are logically the **lowest**, which is probably related to the overall higher distance from the centre.
