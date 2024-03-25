@@ -70,7 +70,7 @@ FROM airbnb_europe
 GROUP BY city, day
 ORDER BY avg_price_usd DESC
 ```
-![alt text](<Sheet 1.png>)
+![alt text](<images/Sheet 1.png>)
 *Bar chart showing average prices over the weekend and during the week. Chart was made with Tableau from a file I exported from VS Code*
 
 It can be seen from the chart that there are no significant differences in prices at the weekend and during the week. In **Amsterdam**, the difference is most pronounced, with weekend accommodation costing **USD 20** more than during the week. However, in **Paris**, for example, accommodation is **more expensive during the week** than at the weekend.
@@ -87,7 +87,7 @@ WHERE room_type != 'Shared room'
 GROUP BY city, room_type
 ORDER BY count_of_apartments DESC
 ```
-![alt text](<Sheet 2.png>)
+![alt text](<images/Sheet 2.png>)
 *Bar chart showing count of available entire homes vs. private rooms. Chart was made with Tableau from a file I exported from VS Code*
 
 **Rome** boasts over **4 times** the number of available offers compared to **Amsterdam**. **Barcelona** has more than **4 times** the number of **private rooms** available than **entire houses**. Conversely, **Athens** and **Budapest** have over **12** and **8.5** times more **entire houses** than **private rooms**, respectively. This is an important consideration when searching for accommodations. In certain cities, finding an offer that fits our needs will be easier, while in others, it may prove more challenging. There are also shared rooms available, but there were very few of them, so they were filtered out.
