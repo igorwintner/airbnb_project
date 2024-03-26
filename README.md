@@ -73,7 +73,7 @@ ORDER BY avg_price_usd DESC
 ![alt text](<images/Sheet 1.png>)
 *Bar chart showing average prices over the weekend and during the week. Chart was made with Tableau from a file I exported from VS Code*
 
-It can be seen from the chart that there are no significant differences in prices at the weekend and during the week. In **Amsterdam**, the difference is most pronounced, with weekend accommodation costing **USD 20** more than during the week. However, in **Paris**, for example, accommodation is **more expensive during the week** than at the weekend.
+It can be seen from the chart that there are no significant differences in prices at the weekend and during the week. In **Amsterdam**, the difference is most pronounced, with weekend accommodation costing **$20** more than during the week. However, in **Paris**, for example, accommodation is **more expensive during the week** than at the weekend.
 
 ### 3. What is the availability of entire homes and private rooms?
 
@@ -96,7 +96,8 @@ ORDER BY count_of_apartments DESC
 
 ### 4. Does the superhost label affect the price of accommodation?
 
-Discover if it affects the price if the landlord is a superhost or not. Superhost must meet certain criteria to be able to use this designation. These include a **4.8+ overall rating**, **90% response rate** or **<1% cancellation rate**.
+Discover if it affects the price if the landlord is a superhost or not. Superhost must meet certain criteria to be able to use this designation. These include a **4.8+ overall rating**, **90% response rate** or **<1% cancellation rate**. You can find more about Airbnb Superhosts via this 🔗:
+ [Airbnb Superhosts](https://www.airbnb.co.uk/d/superhost-guest)
 
 ```sql
 WITH superhost AS (
@@ -129,9 +130,9 @@ Here is a table where we can see the price differences between superhosts and re
 
 *Table displaying the average price for accommodation for soperhost and regular landlords*
 
-**Superhosts:** In some cases, superhost accommodation is cheaper than regular landlords. The biggest difference is noticeable in **Amsterdam**, where superhosts have an average price almost **50 USD lower** than regular landlords, which is very surprising. **Budapest** and **Vienna** have a similarly **lower price** for superhosts, but it is a much smaller difference of **USD 11** and **USD 7** respectively. 
+**Superhosts:** In some cases, superhost accommodation is cheaper than regular landlords. The biggest difference is noticeable in **Amsterdam**, where superhosts have an average price almost **$50 lower** than regular landlords, which is very surprising. **Budapest** and **Vienna** have a similarly **lower price** for superhosts, but it is a much smaller difference of **$11** and **$7** respectively. 
 
-**Nonsuperhosts:** In other cases, the prices for regular landlords are lower, but the differences are not substantial. Only for **Athens** and **Paris** is the difference more significant, where the price is about **USD 20 lower** for regular landlords compared to superhosts.
+**Nonsuperhosts:** In other cases, the prices for regular landlords are lower, but the differences are not substantial. Only for **Athens** and **Paris** is the difference more significant, where the price is about **$20 lower** for regular landlords compared to superhosts.
 
 ### 5. How does distance from the centre affect the price of accommodation?
 
